@@ -1,0 +1,15 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+
+# Load X resource database
+xrdb -load ~/.Xresources
+
+#exec gnome-session
+exec i3

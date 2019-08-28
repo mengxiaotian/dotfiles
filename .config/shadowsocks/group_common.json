@@ -1,0 +1,10 @@
+{
+	"server": "104.243.20.242",
+	"server_port": 18325,
+	"password": "5XOZwefiPe92",
+	"method": "aes-256-gcm",
+	"local_address": "127.0.0.1",
+	"local_port": 1080,
+	"timeout": 300,
+	"workers": 1
+}

@@ -2,6 +2,11 @@
     "telemetry.machineId": "41a4f7cc8d2bb2dd076412a4f87865060ef8f5671f95e622219455a1707e606f",
     "openedPathsList": {
         "workspaces3": [
+            "vscode-remote://ssh-remote%2B7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d/home/yychi/Documents/workspace/now_work/infoGAN-pytorch",
+            "vscode-remote://ssh-remote%2B7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d/home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
+            "vscode-remote://ssh-remote%2B7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d/home/yychi",
+            "file:///home/yychi/Documents/workspace/now_work/InfoGAN",
+            "file:///home/yychi/Documents",
             "file:///home/yychi/Documents/BlogHugo",
             "file:///home/yychi/Documents/HugoPages",
             "vscode-remote://ssh-remote%2B10.19.125.173/home/yychi/Documents/workspace/now_work/InfoGAN",
@@ -13,7 +18,11 @@
             "file:///home/yychi/Documents/workspace/console/c%2B%2B"
         ],
         "files2": [
+            "file:///home/yychi/Documents/BlogHugo/content/post/server-develop-preliminaries.md",
             "file:///home/yychi/Documents/campushr.md",
+            "file:///home/yychi/Documents/workspace/latex/report_cn/README.md",
+            "file:///home/yychi/Documents/BlogHugo/content/post/cpp-learn.md",
+            "file:///home/yychi/Documents/learn2live/LearningNotes/CVX%20notes.md",
             "file:///home/yychi/Documents/HexoPages/source/_posts/Exponetial-Distribution.md",
             "file:///home/yychi/Documents/HexoPages/source/_posts/Vim%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md",
             "file:///home/yychi/Documents/workspace/console/c%2B%2B/tencent2.cpp",
@@ -21,6 +30,11 @@
             "file:///home/yychi/Documents/workspace/console/c%2B%2B/chuan.cpp"
         ],
         "workspaceLabels": [
+            "~/Documents/workspace/now_work/infoGAN-pytorch [SSH: HP-WorkStation]",
+            "~/Documents/workspace/now_work/Torch-InfoGAN [SSH: HP-WorkStation]",
+            "/home/yychi [SSH: HP-WorkStation]",
+            null,
+            null,
             null,
             null,
             "~/Documents/workspace/now_work/InfoGAN [SSH: 10.19.125.173]",
@@ -75,7 +89,62 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/yychi/Documents/BlogHugo",
+                                        "external": "vscode-remote://ssh-remote%2B7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d/home/yychi/Documents/workspace/now_work/infoGAN-pytorch",
+                                        "path": "/home/yychi/Documents/workspace/now_work/infoGAN-pytorch",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/workspace/now_work/infoGAN-pytorch [SSH: HP-WorkStation]"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/workspace/now_work/Torch-InfoGAN [SSH: HP-WorkStation]"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/yychi",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/yychi [SSH: HP-WorkStation]"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yychi/Documents/workspace/now_work/InfoGAN",
+                                        "path": "/home/yychi/Documents/workspace/now_work/InfoGAN",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/workspace/now_work/InfoGAN"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yychi/Documents",
+                                        "path": "/home/yychi/Documents",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/yychi/Documents/BlogHugo",
                                         "path": "/home/yychi/Documents/BlogHugo",
                                         "scheme": "file"
@@ -128,51 +197,18 @@
                                     "label": "/home/wyl/yy/cs231 [SSH: 10.19.125.173]"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/home/wyl/yy/InfoGAN",
-                                        "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+10.19.125.173"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/wyl/yy/InfoGAN [SSH: 10.19.125.173]"
+                                    "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "openRecentFolder",
+                                    "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/home/wyl/yy/InfoGAN/InfoGAN",
-                                        "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+10.19.125.173"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/wyl/yy/InfoGAN/InfoGAN [SSH: 10.19.125.173]"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/home/wyl/yy/DeepChrome/code",
-                                        "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+10.19.125.173"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/wyl/yy/DeepChrome/code [SSH: 10.19.125.173]"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/workspace/console/c%2B%2B",
-                                        "path": "/home/yychi/Documents/workspace/console/c++",
+                                        "external": "file:///home/yychi/Documents/BlogHugo/content/post/server-develop-preliminaries.md",
+                                        "path": "/home/yychi/Documents/BlogHugo/content/post/server-develop-preliminaries.md",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/workspace/console/c++"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
+                                    "label": "~/Documents/BlogHugo/content/post/server-develop-preliminaries.md"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -184,6 +220,39 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/campushr.md"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yychi/Documents/workspace/latex/report_cn/README.md",
+                                        "path": "/home/yychi/Documents/workspace/latex/report_cn/README.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/workspace/latex/report_cn/README.md"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yychi/Documents/BlogHugo/content/post/cpp-learn.md",
+                                        "path": "/home/yychi/Documents/BlogHugo/content/post/cpp-learn.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/BlogHugo/content/post/cpp-learn.md"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yychi/Documents/learn2live/LearningNotes/CVX%20notes.md",
+                                        "path": "/home/yychi/Documents/learn2live/LearningNotes/CVX notes.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/learn2live/LearningNotes/CVX notes.md"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -353,6 +422,10 @@
                     {
                         "id": "workbench.action.closeFolder",
                         "label": "Close &&Folder"
+                    },
+                    {
+                        "id": "remote.closeRemote",
+                        "label": "Close Re&&mote Connection"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -556,7 +629,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1007,8 +1081,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1208,8 +1281,8 @@
                 "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
-                "label": "Ctrl+Shift+W",
-                "userSettingsLabel": "ctrl+shift+w"
+                "label": "Ctrl+W",
+                "userSettingsLabel": "ctrl+w"
             },
             "workbench.action.quit": {
                 "label": "Ctrl+Q",
@@ -1570,41 +1643,18 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "vscode-remote://ssh-remote%2B10.19.125.173/home/yychi/Documents/workspace/now_work/InfoGAN",
-            "backupPath": "/home/yychi/.config/Code/Backups/8719bdbade6942c083b39071bc4eec8e",
-            "remoteAuthority": "ssh-remote+10.19.125.173",
+            "folder": "vscode-remote://ssh-remote%2B7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d/home/yychi/Documents/workspace/now_work/infoGAN-pytorch",
+            "backupPath": "/home/yychi/.config/Code/Backups/a379c29a3d05c662fc86268520acf9d1",
+            "remoteAuthority": "ssh-remote+7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d",
             "uiState": {
                 "mode": 1,
-                "x": 25,
-                "y": 57,
-                "width": 928,
-                "height": 998
+                "x": 20,
+                "y": 78,
+                "width": 1880,
+                "height": 982
             }
         },
-        "openedWindows": [
-            {
-                "folder": "vscode-remote://ssh-remote%2B10.19.125.173/home/yychi/Documents/workspace/now_work/InfoGAN",
-                "backupPath": "/home/yychi/.config/Code/Backups/8719bdbade6942c083b39071bc4eec8e",
-                "remoteAuthority": "ssh-remote+10.19.125.173",
-                "uiState": {
-                    "mode": 1,
-                    "x": 25,
-                    "y": 57,
-                    "width": 928,
-                    "height": 998
-                }
-            },
-            {
-                "backupPath": "/home/yychi/.config/Code/Backups/1566574466264",
-                "uiState": {
-                    "mode": 1,
-                    "x": 967,
-                    "y": 57,
-                    "width": 928,
-                    "height": 998
-                }
-            }
-        ]
+        "openedWindows": []
     },
-    "pickerWorkingDir": "/home/yychi/Documents"
+    "pickerWorkingDir": "/home/yychi/Documents/workspace/now_work"
 }

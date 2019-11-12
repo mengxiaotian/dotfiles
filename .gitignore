@@ -7,10 +7,8 @@
 !*config*
 !*[a-zA-Z]*rc
 !.config/*
-!.config/**/*conf
 !.config/**/*rc
-!.config/**/conf*
-!.config/**/*config*
+!.config/**/*conf*
 !.config/**/*.json
 #---[ ignore list ]---
 .config/shadowsocks/*

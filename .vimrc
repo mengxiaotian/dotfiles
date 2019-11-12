@@ -16,6 +16,12 @@ Plugin 'VundleVim/Vundle.vim'
 " enhanced status bar -------------------------------------------------------
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+
+" disable some extentsions
+let g:airline#extensions#fugitiveline#enabled = 0
+let g:airline#extensions#wordcount#enabled = 0
+let g:airline#extensions#whitespace#enabled = 0
+
 " use powerline fonts
 let g:airline_powerline_fonts = 1
 " use theme 'deus'
@@ -25,7 +31,7 @@ if !exists('g:airline_symbols')
 	let g:airline_symbols = {}
 endif
 let g:airline_symbols.linenr = '¶'
-let g:airline_symbols.whitespace = 'Ξ'
+" let g:airline_symbols.whitespace = 'Ξ'
 
 let g:airline_symbols_ascii = 1
 
@@ -190,7 +196,7 @@ set softtabstop=2	" >0 other wise tab will insert combination of spaces
 set expandtab 		" expand tab to spaces
 set noerrorbells	" turn off the error bell
 set scrolloff=3	    " 3 lines to top/bottom
-set hlsearch        " highlight matched searching
+"set hlsearch        " highlight matched searching
 "set t_vb=			" 置空错误铃声的终端代码	
 "set smartindent	" 自动缩进
 set showcmd         " show commands

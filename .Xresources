@@ -60,12 +60,12 @@ URxvt.scrollBar:False
 URxvt.scrollBar_floating:False
 URxvt.scrollstyle:plain
 !!滚屏设置
-URxvt.mouseWheelScrollPage:True
+URxvt.mouseWheelScrollPage:False
 URxvt.scrollTtyOutput:False
 URxvt.scrollWithBuffer:True
 URxvt.scrollTtyKeypress:True
 ! screen scroll
-URxvt.secondaryScroll:False
+URxvt.secondaryScroll:True
 !!光标闪烁
 URxvt.cursorBlink:True
 URxvt.saveLines:3000
@@ -79,17 +79,17 @@ URxvt.italicFont:xft:Source Code Pro for Powerline:style=Italic:antialias=True:p
 !! @rofi
 !rofi.modi: run
 rofi.font: Monaco 15
-rofi.width: 100
-rofi.lines: 7
-rofi.columns: 1
-rofi.opacity: 80
-!                    bg       fg      altbg    hlbg     hlfg
-rofi.color-normal: #282828, #ebdbb2, #282828, #ebdbb2, #282828
-rofi.color-urgent: #282828, #ebdbb2, #282828, #ebdbb2, #282828
-rofi.color-active: #282828, #ebdbb2, #282828, #ebdbb2, #282828
-rofi.color-window: #282828, #282828
-rofi.bw: 0
-rofi.location: 2
-rofi.padding: 100
+! rofi.width: 100
+! rofi.lines: 7
+! rofi.columns: 1
+! rofi.opacity: 80
+! !                    bg       fg      altbg    hlbg     hlfg
+! rofi.color-normal: #282828, #ebdbb2, #282828, #ebdbb2, #282828
+! rofi.color-urgent: #282828, #ebdbb2, #282828, #ebdbb2, #282828
+! rofi.color-active: #282828, #ebdbb2, #282828, #ebdbb2, #282828
+! rofi.color-window: #282828, #282828
+! rofi.bw: 0
+! rofi.location: 2
+! rofi.padding: 100
 rofi.fuzzy: true
 !rofi.theme: paper-float

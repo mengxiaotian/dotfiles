@@ -163,6 +163,10 @@ for_window [class="File-roller"] floating enable
 for_window [class="feh"] floating enable
 for_window [class="VirtualBox Manager"] floating enable
 for_window [class="SimpleScreenRecorder"] floating enable
+for_window [class="flameshot"] floating enable
+for_window [class="xpad"] floating enable
+for_window [class="netease-cloud-music"] floating enable
+for_window [class="GoldenDict"] floating enable
 
 
 # switch to workspace

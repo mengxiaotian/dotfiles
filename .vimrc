@@ -164,6 +164,9 @@ let g:UltiSnipsJumpBackwardTrigger="<leader>p"
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 
+""" takswarrior ------------------------------------------
+Plugin 'blindFS/vim-taskwarrior'
+
 
 " 你的所有插件需要在下面这行之前
 call vundle#end()            " 必须
@@ -202,6 +205,7 @@ set scrolloff=3	    " 3 lines to top/bottom
 set showcmd         " show commands
 " file encoding families, see: https://www.zhihu.com/question/22363620
 set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1 
+set colorcolumn=80  " draw a vertical line at column 80
 
 """ keybindings {
 let mapleader=";"
@@ -233,5 +237,6 @@ hi Comment cterm=italic
 if has("gui_running")
 	" remove sapce at window bottom
 	set guiheadroom=0
- 	set guifont=Source\ Code\ Pro\ for\ Powerline\ 16
+ 	" set guifont=Source\ Code\ Pro\ for\ Powerline\ 16
+  set guifont=Consolas\ 14.1
 endif

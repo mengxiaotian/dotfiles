@@ -1,6 +1,9 @@
 !!$HOME/.Xresources
 
-!! General
+/**********************************************************************
+*                              General                               *
+**********************************************************************/
+
 xft.dpi: 96
 !xft.antialias: true
 xft.hinting: true
@@ -14,9 +17,12 @@ xft:Font Awesome 5 Free:style=Regular:antialias=false:size=12, \
 !! Load pre-defined colors
 ##include "/home/yychi/space-vim-dark.xresources"
 
-!! @xterm
+/**********************************************************************
+*                              xterm                                 *
+**********************************************************************/
+
 xterm*ScrollBar: false
-xterm*faceName: Monaco
+xterm*faceName: Consolas
 xterm*faceNameDoublesize: WenQuanYi Micro Hei
 xterm*faceSize: 13
 xterm*allowBoldFonts: true
@@ -24,7 +30,10 @@ xterm*foreground: grey100
 xterm*background: rgb:30/10/10
 !xterm*background: black
 
-!! @urxvt
+/**********************************************************************
+*                               urxvt                                *
+**********************************************************************/
+
 URxvt.preeditType:Root
 !!调整此处设置输入法
 URxvt.inputMethod:fcitx
@@ -76,7 +85,10 @@ URxvt.font:xft:DejaVu Sans Mono for Powerline:antialias=True:pixelsize=18,xft:We
 URxvt.boldfont:xft:DejaVu Sans Mono for Powerline:antialias=True:pixelsize=18,xft:WenQuanYi Micro Hei:pixelsize=18
 URxvt.italicFont:xft:Source Code Pro for Powerline:style=Italic:antialias=True:pixelsize=18,xft:WenQuanYi Micro Hei:style=Italic:pixelsize=18
 
-!! @rofi
+/**********************************************************************
+*                                rofi                                *
+**********************************************************************/
+
 !rofi.modi: run
 rofi.font: Monaco 15
 ! rofi.width: 100

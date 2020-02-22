@@ -300,7 +300,7 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 #alias vim='sudo vim'
 alias def='sdcv -c'
 alias nutstore='python2 /opt/nutstore/dist/bin/nutstore-pydaemon.py'
-alias py37='source /opt/pycharm/py37/bin/activate'
+alias py38='source /opt/pycharm/py38/bin/activate'
 # disable compiler extention & maximize warning level & froce treat warning as errors
 # see: https://www.learncpp.com/cpp-tutorial/configuring-your-compiler-warning-and-error-levels/
 alias gpp='g++ -pedantic-errors -Wall -Weffc++ -Wextra -Wsign-conversion -Werror'
@@ -343,6 +343,18 @@ zstyle ':completion:*:ping:*' hosts 192.168.1.{1,50,51,100,101} www.baidu.com ww
  
 #补全 ssh scp sftp 等
 zstyle -e ':completion::*:*:*:hosts' hosts 'reply=(${=${${(f)"$(cat {/etc/ssh_,~/.ssh/known_}hosts(|2)(N) /dev/null)"}%%[# ]*}//,/ })'
+
+# pip zsh completion start
+function _pip_completion {
+  local words cword
+  read -Ac words
+  read -cn cword
+  reply=( $( COMP_WORDS="words[*]" \
+             COMP_CWORD=$(( cword-1 )) \
+             PIP_AUTO_COMPLETE=1 $words[1] ) )
+}
+compctl -K _pip_completion pip
+# pip zsh completion end
 #}}}
  
 #{{{ F1 计算器

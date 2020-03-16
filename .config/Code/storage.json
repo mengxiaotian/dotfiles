@@ -2,8 +2,9 @@
     "telemetry.machineId": "41a4f7cc8d2bb2dd076412a4f87865060ef8f5671f95e622219455a1707e606f",
     "openedPathsList": {
         "workspaces3": [
-            "file:///home/yychi/Documents/workspace/console/python/netease-hw",
+            "file:///home/yychi/Documents/workspace/now_work/BEGAN-pytorch-master",
             "file:///home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
+            "file:///home/yychi/Documents/workspace/console/python/netease-hw",
             "file:///home/yychi/Documents",
             "vscode-remote://ssh-remote%2B7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d/home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
             "vscode-remote://ssh-remote%2B7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d/home/yychi/Documents/workspace/console/python",
@@ -34,6 +35,7 @@
             "file:///home/yychi/Documents/workspace/console/c%2B%2B/chuan.cpp"
         ],
         "workspaceLabels": [
+            null,
             null,
             null,
             "~/Documents",
@@ -88,8 +90,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -98,24 +99,35 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/yychi/Documents/workspace/console/python/netease-hw",
-                                        "external": "file:///home/yychi/Documents/workspace/console/python/netease-hw",
-                                        "path": "/home/yychi/Documents/workspace/console/python/netease-hw",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/workspace/console/python/netease-hw"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
+                                        "fsPath": "/home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
                                         "external": "file:///home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
                                         "path": "/home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/workspace/now_work/Torch-InfoGAN"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yychi/Documents/workspace/now_work/BEGAN-pytorch-master",
+                                        "path": "/home/yychi/Documents/workspace/now_work/BEGAN-pytorch-master",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/workspace/now_work/BEGAN-pytorch-master"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/yychi/Documents/workspace/console/python/netease-hw",
+                                        "path": "/home/yychi/Documents/workspace/console/python/netease-hw",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/workspace/console/python/netease-hw"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -192,17 +204,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/workspace/now_work/InfoGAN"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/BlogHugo",
-                                        "path": "/home/yychi/Documents/BlogHugo",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/BlogHugo"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -623,8 +624,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -827,8 +827,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1693,17 +1692,17 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/yychi/Documents/workspace/console/python/netease-hw",
-            "backupPath": "/home/yychi/.config/Code/Backups/2684d4980fc26a7a300dd8c559dd0411",
+            "folder": "file:///home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
+            "backupPath": "/home/yychi/.config/Code/Backups/3067691303aea272011943bba08584dc",
             "uiState": {
                 "mode": 1,
                 "x": 20,
-                "y": 78,
+                "y": 52,
                 "width": 1880,
-                "height": 982
+                "height": 1008
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/yychi/Documents/workspace/console/python"
+    "pickerWorkingDir": "/home/yychi/Documents/workspace/now_work"
 }

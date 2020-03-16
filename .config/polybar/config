@@ -99,15 +99,15 @@ border-top-color = #ee2d2d2d
 
 spacing = ${bar/top.spacing}
 lineheight = ${bar/top.lineheight}
-padding-right = ${bar/top.padding_right}
-module-margin-left = ${bar/top.module_margin_left}
-module-margin-right = ${bar/top.module_margin_right}
+padding-right = ${bar/top.padding-right}
+module-margin-left = ${bar/top.module-margin-left}
+module-margin-right = ${bar/top.module-margin-right}
 
 font-0 = ${bar/top.font-0}
 font-1 = ${bar/top.font-1}
 
-modules-left = i3wm
-modules-right = wifi memory cpu date
+modules-left = i3
+modules-right = wlan memory cpu date
 
 ;[bar/bar]
 ;background = #D93d3c3b

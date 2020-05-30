@@ -2,11 +2,12 @@
     "telemetry.machineId": "41a4f7cc8d2bb2dd076412a4f87865060ef8f5671f95e622219455a1707e606f",
     "openedPathsList": {
         "workspaces3": [
-            "file:///home/yychi/Documents/workspace/now_work/BEGAN-pytorch-master",
+            "file:///home/yychi/Documents/workspace/latex/paper",
+            "vscode-remote://ssh-remote%2B7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d/home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
             "file:///home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
+            "file:///home/yychi/Documents/workspace/now_work/BEGAN-pytorch-master",
             "file:///home/yychi/Documents/workspace/console/python/netease-hw",
             "file:///home/yychi/Documents",
-            "vscode-remote://ssh-remote%2B7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d/home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
             "vscode-remote://ssh-remote%2B7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d/home/yychi/Documents/workspace/console/python",
             "vscode-remote://ssh-remote%2B7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d/home/yychi/Documents/workspace/now_work/ss-infogan",
             "vscode-remote://ssh-remote%2B7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d/home/yychi/Documents/workspace/now_work/infoGAN-pytorch",
@@ -23,6 +24,7 @@
             "file:///home/yychi/Documents/workspace/console/c%2B%2B"
         ],
         "files2": [
+            "file:///home/yychi/Downloads/chromeDownloads/CATGAN.ipynb",
             "file:///home/yychi/Documents/BlogHugo/content/post/server-develop-preliminaries.md",
             "file:///home/yychi/Documents/campushr.md",
             "file:///home/yychi/Documents/workspace/latex/report_cn/README.md",
@@ -36,10 +38,11 @@
         ],
         "workspaceLabels": [
             null,
+            "~/Documents/workspace/now_work/Torch-InfoGAN [SSH: HP-WorkStation]",
+            null,
             null,
             null,
             "~/Documents",
-            "~/Documents/workspace/now_work/Torch-InfoGAN [SSH: HP-WorkStation]",
             "~/Documents/workspace/console/python [SSH: HP-WorkStation]",
             "~/Documents/workspace/now_work/ss-infogan [SSH: HP-WorkStation]",
             "~/Documents/workspace/now_work/infoGAN-pytorch [SSH: HP-WorkStation]",
@@ -90,7 +93,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -99,8 +103,29 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
-                                        "external": "file:///home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
+                                        "fsPath": "/home/yychi/Documents/workspace/latex/paper",
+                                        "external": "file:///home/yychi/Documents/workspace/latex/paper",
+                                        "path": "/home/yychi/Documents/workspace/latex/paper",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/workspace/latex/paper"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
+                                        "scheme": "vscode-remote",
+                                        "authority": "ssh-remote+7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/workspace/now_work/Torch-InfoGAN [SSH: HP-WorkStation]"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "path": "/home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
                                         "scheme": "file"
                                     },
@@ -111,7 +136,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/workspace/now_work/BEGAN-pytorch-master",
                                         "path": "/home/yychi/Documents/workspace/now_work/BEGAN-pytorch-master",
                                         "scheme": "file"
                                     },
@@ -122,7 +146,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/workspace/console/python/netease-hw",
                                         "path": "/home/yychi/Documents/workspace/console/python/netease-hw",
                                         "scheme": "file"
                                     },
@@ -138,17 +161,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Documents"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
-                                        "scheme": "vscode-remote",
-                                        "authority": "ssh-remote+7b22686f73744e616d65223a2248502d576f726b53746174696f6e227d"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/workspace/now_work/Torch-InfoGAN [SSH: HP-WorkStation]"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -195,24 +207,22 @@
                                     "label": "/home/yychi [SSH: HP-WorkStation]"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/workspace/now_work/InfoGAN",
-                                        "path": "/home/yychi/Documents/workspace/now_work/InfoGAN",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/workspace/now_work/InfoGAN"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/BlogHugo/content/post/server-develop-preliminaries.md",
+                                        "path": "/home/yychi/Downloads/chromeDownloads/CATGAN.ipynb",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/chromeDownloads/CATGAN.ipynb"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "path": "/home/yychi/Documents/BlogHugo/content/post/server-develop-preliminaries.md",
                                         "scheme": "file"
                                     },
@@ -223,7 +233,6 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/campushr.md",
                                         "path": "/home/yychi/Documents/campushr.md",
                                         "scheme": "file"
                                     },
@@ -234,7 +243,6 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/workspace/latex/report_cn/README.md",
                                         "path": "/home/yychi/Documents/workspace/latex/report_cn/README.md",
                                         "scheme": "file"
                                     },
@@ -245,7 +253,6 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/BlogHugo/content/post/cpp-learn.md",
                                         "path": "/home/yychi/Documents/BlogHugo/content/post/cpp-learn.md",
                                         "scheme": "file"
                                     },
@@ -256,7 +263,6 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/learn2live/LearningNotes/CVX%20notes.md",
                                         "path": "/home/yychi/Documents/learn2live/LearningNotes/CVX notes.md",
                                         "scheme": "file"
                                     },
@@ -267,7 +273,6 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/HexoPages/source/_posts/Exponetial-Distribution.md",
                                         "path": "/home/yychi/Documents/HexoPages/source/_posts/Exponetial-Distribution.md",
                                         "scheme": "file"
                                     },
@@ -278,7 +283,6 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/HexoPages/source/_posts/Vim%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5.md",
                                         "path": "/home/yychi/Documents/HexoPages/source/_posts/Vim命令速查.md",
                                         "scheme": "file"
                                     },
@@ -289,7 +293,6 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/workspace/console/c%2B%2B/tencent2.cpp",
                                         "path": "/home/yychi/Documents/workspace/console/c++/tencent2.cpp",
                                         "scheme": "file"
                                     },
@@ -300,23 +303,11 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/workspace/console/c%2B%2B/Gp1_1.cpp",
                                         "path": "/home/yychi/Documents/workspace/console/c++/Gp1_1.cpp",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/workspace/console/c++/Gp1_1.cpp"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/yychi/Documents/workspace/console/c%2B%2B/chuan.cpp",
-                                        "path": "/home/yychi/Documents/workspace/console/c++/chuan.cpp",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/workspace/console/c++/chuan.cpp"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -391,7 +382,7 @@
                                 },
                                 {
                                     "id": "workbench.action.openGlobalKeybindings",
-                                    "label": "&&Keyboard Shortcuts"
+                                    "label": "Keyboard Shortcuts"
                                 },
                                 {
                                     "id": "workbench.extensions.action.showRecommendedKeymapExtensions",
@@ -555,10 +546,6 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "workbench.action.toggleMultiCursorModifier",
-                        "label": "Switch to Ctrl+Click for Multi-Cursor"
-                    },
-                    {
                         "id": "editor.action.insertCursorAbove",
                         "label": "&&Add Cursor Above"
                     },
@@ -581,6 +568,17 @@
                     {
                         "id": "editor.action.selectHighlights",
                         "label": "Select All &&Occurrences"
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "workbench.action.toggleMultiCursorModifier",
+                        "label": "Switch to Ctrl+Click for Multi-Cursor"
+                    },
+                    {
+                        "id": "editor.action.toggleColumnSelection",
+                        "label": "Column &&Selection Mode"
                     }
                 ]
             },
@@ -643,8 +641,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -762,7 +759,7 @@
                     },
                     {
                         "id": "workbench.view.debug",
-                        "label": "&&Debug"
+                        "label": "&&Run"
                     },
                     {
                         "id": "workbench.view.extensions",
@@ -806,7 +803,8 @@
                     },
                     {
                         "id": "editor.action.toggleRenderWhitespace",
-                        "label": "&&Render Whitespace"
+                        "label": "&&Render Whitespace",
+                        "checked": true
                     },
                     {
                         "id": "editor.action.toggleRenderControlCharacter",
@@ -827,7 +825,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -955,7 +954,7 @@
                     },
                     {
                         "id": "workbench.action.gotoSymbol",
-                        "label": "Go to &&Symbol in File..."
+                        "label": "Go to &&Symbol in Editor..."
                     },
                     {
                         "id": "editor.action.revealDefinition",
@@ -1012,7 +1011,7 @@
                     }
                 ]
             },
-            "Debug": {
+            "Run": {
                 "items": [
                     {
                         "id": "workbench.action.debug.start",
@@ -1129,7 +1128,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1297,6 +1297,7 @@
             },
             "workbench.action.openSettings": {
                 "label": "Ctrl+,",
+                "isNative": false,
                 "userSettingsLabel": "ctrl+,"
             },
             "workbench.view.extensions": {
@@ -1373,6 +1374,7 @@
             },
             "editor.action.commentLine": {
                 "label": "Ctrl+/",
+                "isNative": false,
                 "userSettingsLabel": "ctrl+/"
             },
             "editor.action.blockComment": {
@@ -1454,10 +1456,12 @@
             },
             "workbench.action.zoomIn": {
                 "label": "Ctrl+=",
+                "isNative": false,
                 "userSettingsLabel": "ctrl+="
             },
             "workbench.action.zoomOut": {
                 "label": "Ctrl+-",
+                "isNative": false,
                 "userSettingsLabel": "ctrl+-"
             },
             "workbench.action.zoomReset": {
@@ -1496,6 +1500,7 @@
             },
             "workbench.action.terminal.toggleTerminal": {
                 "label": "Ctrl+`",
+                "isNative": false,
                 "userSettingsLabel": "ctrl+`"
             },
             "workbench.actions.view.problems": {
@@ -1508,10 +1513,12 @@
             },
             "workbench.action.navigateBack": {
                 "label": "Ctrl+Alt+-",
+                "isNative": false,
                 "userSettingsLabel": "ctrl+alt+-"
             },
             "workbench.action.navigateForward": {
                 "label": "Ctrl+Shift+-",
+                "isNative": false,
                 "userSettingsLabel": "ctrl+shift+-"
             },
             "workbench.action.navigateToLastEditLocation": {
@@ -1607,6 +1614,7 @@
             },
             "editor.action.jumpToBracket": {
                 "label": "Ctrl+Shift+\\",
+                "isNative": false,
                 "userSettingsLabel": "ctrl+shift+\\"
             },
             "editor.action.marker.nextInFiles": {
@@ -1667,6 +1675,7 @@
             },
             "workbench.action.terminal.new": {
                 "label": "Ctrl+Shift+`",
+                "isNative": false,
                 "userSettingsLabel": "ctrl+shift+`"
             },
             "workbench.action.terminal.split": {
@@ -1692,17 +1701,17 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/yychi/Documents/workspace/now_work/Torch-InfoGAN",
-            "backupPath": "/home/yychi/.config/Code/Backups/3067691303aea272011943bba08584dc",
+            "folder": "file:///home/yychi/Documents/workspace/latex/paper",
+            "backupPath": "/home/yychi/.config/Code/Backups/9424d0fb37614cd591a394244f369845",
             "uiState": {
                 "mode": 1,
-                "x": 20,
-                "y": 52,
-                "width": 1880,
-                "height": 1008
+                "x": 966,
+                "y": 53,
+                "width": 933,
+                "height": 1006
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/yychi/Documents/workspace/now_work"
+    "pickerWorkingDir": "/home/yychi/Documents/workspace/latex"
 }

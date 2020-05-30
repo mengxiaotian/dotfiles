@@ -193,9 +193,9 @@ set number			" display the number of lines
 syntax enable		" auto syntax highlight
 "set cursorline		" highlight the cursorline
 "set ruler			" display a ruler in statusbar
-set tabstop=2		" set the tab length
-set shiftwidth=2	" indent length
-set softtabstop=2	" >0 other wise tab will insert combination of spaces
+set tabstop=4		" set the tab length
+set shiftwidth=4	" indent length
+set softtabstop=4	" >0 other wise tab will insert combination of spaces
 set expandtab 		" expand tab to spaces
 set noerrorbells	" turn off the error bell
 set scrolloff=3	    " 3 lines to top/bottom
@@ -206,6 +206,16 @@ set showcmd         " show commands
 " file encoding families, see: https://www.zhihu.com/question/22363620
 set fileencodings=ucs-bom,utf-8,utf-16,gbk,big5,gb18030,latin1 
 set colorcolumn=80  " draw a vertical line at column 80
+""" filetype specification, see: https://segmentfault.com/q/1010000000453410/
+autocmd FileType php,python,c,java,perl,shell,bash,vim,ruby,cpp set ai
+autocmd FileType php,python,c,java,perl,shell,bash,vim,ruby,cpp set sw=4
+autocmd FileType php,python,c,java,perl,shell,bash,vim,ruby,cpp set ts=4
+autocmd FileType php,python,c,java,perl,shell,bash,vim,ruby,cpp set sts=4
+autocmd FileType tex,javascript,html,css,xml set ai
+autocmd FileType tex,javascript,html,css,xml set sw=2
+autocmd FileType tex,javascript,html,css,xml set ts=2
+autocmd FileType tex,javascript,html,css,xml set sts=2
+
 
 """ keybindings {
 let mapleader=";"
@@ -221,6 +231,11 @@ nnoremap <leader>k <C-w>k
 nnoremap <leader>h <C-w>h
 nnoremap <leader>l <C-w>l
 
+" For vimdiff.
+" see https://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git
+map <leader>2 :diffget LO<CR> " get from local
+map <leader>3 :diffget BA<CR> " get from base
+map <leader>4 :diffget RE<CR> " get from remote
 """ }
 
 

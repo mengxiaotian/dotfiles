@@ -255,3 +255,5 @@ if has("gui_running")
  	" set guifont=Source\ Code\ Pro\ for\ Powerline\ 16
   set guifont=Consolas\ 14.1
 endif
+
+" test git client
